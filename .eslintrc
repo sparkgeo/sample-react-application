@@ -190,7 +190,8 @@
     "space-in-parens": ["error", "never"],
     "spaced-comment": ["error", "always"],
     "wrap-iife": ["error", "any"],
-    "import/no-cycle": 0
+    "import/no-cycle": 0,
+    "react/no-unescaped-entities": 0
   },
   "env": {
     "jest": true
