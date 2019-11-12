@@ -1,7 +1,5 @@
 # Template React App
 
-## Step 1: Update all dependencies to their latest minor version
+This is a syntenthesis of best practices when building a new React App in Sparkgeo.
 
-```sh
-npm i && npm update
-```
+
