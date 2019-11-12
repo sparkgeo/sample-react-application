@@ -5,7 +5,18 @@
   "dependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "babel-plugin-macros": "^2.6.1",
+    "eslint": "^6.6.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "husky": "^2.3.0",
+    "lint-staged": "^8.1.7",
+    "prettier": "^1.19.1",
+    "react-test-renderer": "^16.8.6"
   },
   "scripts": {
     "start": "react-scripts start",
