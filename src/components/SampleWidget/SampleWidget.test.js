@@ -1,10 +1,11 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { render } from '@testing-library/react'
 import SampleWidget from './index'
 
-it('renders without crashing', () => {
-  const div = document.createElement('div')
+test('renders without crashing', async () => {
+  const { getAllByText } = render(<SampleWidget />)
 
-  ReactDOM.render(<SampleWidget />, div)
-  ReactDOM.unmountComponentAtNode(div)
+  const matches = await getAllByText("It's a widget!")
+
+  expect(matches.length).toBe(1)
 })
