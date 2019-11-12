@@ -20,6 +20,7 @@
     "husky": "^2.3.0",
     "lint-staged": "^8.1.7",
     "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
     "react-test-renderer": "^16.8.6"
   },
   "scripts": {
@@ -40,6 +41,18 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "lint-staged": {
+    "src /**/*.{js,jsx}": [
+      "eslint src/ --fix",
+      "pretty-quick — staged",
+      "git add"
     ]
   }
 }
