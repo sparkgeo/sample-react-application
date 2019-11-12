@@ -173,13 +173,7 @@
     ],
     "prefer-spread": "error",
     "prefer-template": "error",
-    "quotes": [
-      "error",
-      "single",
-      {
-        "allowTemplateLiterals": true
-      }
-    ],
+    "quotes": 0,
     "react/jsx-filename-extension": [
       1,
       {
