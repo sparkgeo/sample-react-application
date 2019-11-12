@@ -189,7 +189,8 @@
     "semi": ["error", "never"],
     "space-in-parens": ["error", "never"],
     "spaced-comment": ["error", "always"],
-    "wrap-iife": ["error", "any"]
+    "wrap-iife": ["error", "any"],
+    "import/no-cycle": 0
   },
   "env": {
     "jest": true
