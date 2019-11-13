@@ -20,7 +20,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 code {
@@ -32,19 +32,19 @@ button:focus {outline:0 !important;}
 
 h1 {
   font-family: 'Inter', sans-serif;
-  font-size: 48px;
+  font-size: 4.8rem;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 26.4px;
+  line-height: 2.64rem;
 }
 h2 {
   font-family: 'Inter', sans-serif;
-  font-size: 32px;
+  font-size: 3.2rem;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 20.4px;
+  line-height: 2.04rem;
 
 }
 
@@ -54,29 +54,29 @@ h3 {
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 15.4px;
+  line-height: 1.54rem;
 }
 p {
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 2rem;
 }
 blockquote {
   font-family: 'Inter', sans-serif;
-  font-size: 21px;
+  font-size: 2.1rem;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 3rem;
 }
 pre {
   font-family: 'Inter', sans-serif;
-  font-size: 13px;
+  font-size: 1.3rem;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 18.5714px;
+  line-height: 1.85714rem;
 }
