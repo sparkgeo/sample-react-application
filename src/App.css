@@ -7,71 +7,76 @@
 
 @import url('https://rsms.me/inter/inter.css');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300, 400,900|Roboto:300, 400,900|IBM+Plex+Sans:200,300,400,900');
-  body {
-    margin: 0;
-    font-family: 'Inter', sans-serif;
+html {
+  /* Sets 1rem default size to 10px */
+  font-size: 62.5%;
+}
 
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    padding: 0;
-    background: #222;
-    font-size: 16px;
-  }
 
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-      monospace;
-  }
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
 
-  button:focus {outline:0 !important;}
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-size: 16px;
+}
 
-  h1 {
-    font-family: 'Inter', sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    line-height: 26.4px;
-  }
-  h2 {
-    font-family: 'Inter', sans-serif;
-    font-size: 32px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    line-height: 20.4px;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
 
-  }
+button:focus {outline:0 !important;}
 
-  h3 {
-    font-family: 'Inter', sans-serif;
-    font-size: 28px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    line-height: 15.4px;
-  }
-  p {
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    line-height: 20px;
-  }
-  blockquote {
-    font-family: 'Inter', sans-serif;
-    font-size: 21px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    line-height: 30px;
-  }
-  pre {
-    font-family: 'Inter', sans-serif;
-    font-size: 13px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    line-height: 18.5714px;
-  }
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 26.4px;
+}
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20.4px;
+
+}
+
+h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 15.4px;
+}
+p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+blockquote {
+  font-family: 'Inter', sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+pre {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
+}
