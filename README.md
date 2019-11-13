@@ -2,10 +2,8 @@
 
 This is a syntenthesis of best practices when building a new React App in Sparkgeo.
 
-This template is meant for single-page applications (SPAs), as well as Progressive Web Apps (PWAs). If you are looking for Server Side Rendered applications or Static Site Generator, this is not a starter repo you want at all.
+This template is meant for single-page applications (SPAs), as well as Progressive Web Apps (PWAs). If you are looking for Server Side Rendered applications or Static Site Generator, try starting a [Next](https://nextjs.org/) or a [Gatsby](https://www.gatsbyjs.org/) project while using the best practices gleamed here. Once that project is successful, a template should be added into Github.
 
-
-# Explainers
 
 ## Component and Library Layout
 
@@ -20,7 +18,7 @@ Each of these directories are of a single depth.
 | `lib`        | All JS tools that aren't immutable helper functions |
 
 
-### Special Config Files
+### Special Files
 
 | File Name         | Description                                         |
 | ----------------- | --------------------------------------------------- |
@@ -35,15 +33,16 @@ Each of these directories are of a single depth.
 
 - App.css for global rules of HTML elements
     - 1rem = 10px by default
+    - Most defaults will be pulled from the design system.
 - [Grommet](https://https://v2.grommet.io) for abstract primitives (Box, Form, FormField, etc)
 - [Styled Components](https://www.styled-components.com/) for styling at the component-level.
 
 ## Testing
 
-TBD - Jest for Unit Tests and Integration; Cypress for E2E
+Testing is built using both React Enzyme, Jest and is controlled at the test level using [react-testing-library](https://testing-library.com/docs). Testing in the components takes place in component directories. While testing still has yet to be incolcated into Sparkgeo's culture, we should strive to test behaviour more. Integration testing is better than testing, behaviour (ie what does the container do when it loads; how many times does it make a network request) is better than Unit behaviour testing (when the props are of a certain type, what colour does it show).
 
+## Linting and Code Formatting (Static Testing)
 
+Linting is based on a subset of AirBNB's style guide and internal best practices. The outcome of this combination is still yet to be confirmed. If a lint setting is generally preventing you from accomplishing your goals, talk with the team in #guild-frontend. Either you're too invested in an antipattern, or we have a linter setting that needs to change.
 
-## Linting and Code Formatting
-
-Linting is based on a subset of AirBNB's style guide and internal best practices.
+If a linter setting is in conflict with the autoformatter (Prettier), we will opt for the autoformatter. When we build code, we should keep our focus on the content, not the format.
