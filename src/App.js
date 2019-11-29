@@ -2,8 +2,6 @@
 
   App.js is used to control all React Context Providers
 
-  This also includes ThemeProviders as well.
-
 */
 
 import React from 'react'
