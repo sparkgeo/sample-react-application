@@ -1,8 +1,3 @@
-import React from 'react'
-import { Container } from './styled'
+import SampleWidget from './SampleWidget'
 
-const index = () => {
-  return <Container>It's a widget!</Container>
-}
-
-export default index
+export default SampleWidget
