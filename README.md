@@ -41,6 +41,18 @@ Each of these directories are of a single depth.
 
 Testing is built using both React Enzyme, Jest and is controlled at the test level using [react-testing-library](https://testing-library.com/docs). Testing in the components takes place in component directories. While testing still has yet to be incolcated into Sparkgeo's culture, we should strive to test behaviour more. Integration testing is better than testing, behaviour (ie what does the container do when it loads; how many times does it make a network request) is better than Unit behaviour testing (when the props are of a certain type, what colour does it show).
 
+## Make this a Mobile App!
+
+In order to build a **progessive web app (PWA)**, you need to carry out the following:
+
+1. Go to `src/index.js`
+   1. Follow the direction at the end of the file
+2. Build the application (`npm run build`) and open in Chrome
+3. In the Chrome dev tools, under "Audits", run an audit for the app. Ensure that the "PWA" option is selected.
+4. Fix what it tells you to fix until you see a checkmark under the "PWA" result.
+
+It's that easy. Boom, you have a PWA. Note that this setup has no configuration for local storage or Indexed DB. You'll have to figure that on your own.
+
 ## Linting and Code Formatting (Static Testing)
 
 Linting is based on a subset of AirBNB's style guide and internal best practices. The outcome of this combination is still yet to be confirmed. If a lint setting is generally preventing you from accomplishing your goals, talk with the team in #guild-frontend. Either you're too invested in an antipattern, or we have a linter setting that needs to change.
