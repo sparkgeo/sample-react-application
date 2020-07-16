@@ -1,6 +1,6 @@
-# Template React App
+# Template Grommet React App
 
-This is a syntenthesis of best practices when building a new React App in Sparkgeo.
+This is a starter for SPAs that use Vanilla React using Grommet as the style system. There are other style systems such as Material UI as well as Rebass.
 
 This template is meant for single-page applications (SPAs), as well as Progressive Web Apps (PWAs). If you are looking for Server Side Rendered applications or Static Site Generator, try starting a [Next](https://nextjs.org/) or a [Gatsby](https://www.gatsbyjs.org/) project while using the best practices gleamed here. Once that project is successful, a template should be added into Github.
 
